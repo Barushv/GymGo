@@ -37,8 +37,8 @@ async function navigate(tabId) {
 async function loadStaticData() {
   // Datos estáticos de rutina/técnicas (actualizables sin build).
   const [routine, techniques] = await Promise.all([
-    fetch(`/data/routine.json?v=${APP_VERSION}`).then(r => r.json()),
-    fetch(`/data/techniques.json?v=${APP_VERSION}`).then(r => r.json()),
+    fetch(`data/routine.json?v=${APP_VERSION}`).then(r => r.json()),
+    fetch(`data/techniques.json?v=${APP_VERSION}`).then(r => r.json()),
   ]);
   store.setRoutine(routine);
   store.setTechniques(techniques);
