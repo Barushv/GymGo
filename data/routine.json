@@ -1,0 +1,695 @@
+{
+  "program": {
+    "name": "Hipertrofia Inteligente (Fercho)",
+    "weeks": 8,
+    "notes": "Fuente: Rutina_Hipertrofia_Inteligente_Fercho_Dic2025.pdf • 6 días"
+  },
+  "days": [
+    {
+      "id": "d1",
+      "title": "Lunes - Glúteo/Femoral (fuerte, lumbar-friendly) 🍑🦵",
+      "exercises": [
+        {
+          "id": "hip_thrust_mon",
+          "name": "Hip Thrust (barra o máquina) 🍑",
+          "sets": 5,
+          "repRange": [
+            6,
+            10
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            120,
+            180
+          ],
+          "techniqueId": "pausa_alta",
+          "notes": "Pausa 2s arriba. Opcional: top set + 2 back-off."
+        },
+        {
+          "id": "rdl_db",
+          "name": "RDL con mancuernas 🦵",
+          "sets": 4,
+          "repRange": [
+            8,
+            10
+          ],
+          "tempo": "3-1-1",
+          "restSec": [
+            120,
+            180
+          ],
+          "techniqueId": null,
+          "notes": "Enfoca femoral; espalda neutra."
+        },
+        {
+          "id": "leg_curl_seated",
+          "name": "Curl femoral sentado/acostado 🦵",
+          "sets": 5,
+          "repRange": [
+            10,
+            15
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            75,
+            90
+          ],
+          "techniqueId": "rest_pause",
+          "notes": "Última: rest-pause (15–20s)."
+        },
+        {
+          "id": "back_ext_glute",
+          "name": "Back extension 45° (glute-bias) 🍑",
+          "sets": 3,
+          "repRange": [
+            12,
+            15
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": null,
+          "notes": "Empuja con glúteo, no con lumbar."
+        },
+        {
+          "id": "abduction_mon",
+          "name": "Abducción (máquina/banda) 🔥",
+          "sets": 4,
+          "repRange": [
+            15,
+            25
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            45,
+            60
+          ],
+          "techniqueId": "drop_set",
+          "notes": "Última: drop set."
+        },
+        {
+          "id": "calf_seated",
+          "name": "Gemelo sentado 🦶",
+          "sets": 5,
+          "repRange": [
+            8,
+            12
+          ],
+          "tempo": "2-2-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": "pausa_abajo_arriba",
+          "notes": "Pausa 2s abajo y arriba."
+        },
+        {
+          "id": "core_anti_ext",
+          "name": "Core anti-extensión (dead bug/Pallof) 🧱",
+          "sets": 3,
+          "repRange": [
+            10,
+            15
+          ],
+          "tempo": "Control",
+          "restSec": [
+            45,
+            60
+          ],
+          "techniqueId": null,
+          "notes": "Calidad > cantidad."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "title": "Martes - Push (pecho/hombro/tríceps) 💪",
+      "exercises": [
+        {
+          "id": "incline_db_press",
+          "name": "Press inclinado con mancuernas 🏋️",
+          "sets": 5,
+          "repRange": [
+            6,
+            10
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            120,
+            180
+          ],
+          "techniqueId": "top_set_backoff",
+          "notes": "RIR 1–2. Si fuerte: top set + 2 back-off."
+        },
+        {
+          "id": "machine_chest_press",
+          "name": "Press pecho en máquina 💪",
+          "sets": 4,
+          "repRange": [
+            8,
+            12
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            90,
+            120
+          ],
+          "techniqueId": null,
+          "notes": "Rango completo, sin rebotes."
+        },
+        {
+          "id": "cable_fly",
+          "name": "Aperturas en cable 🫧",
+          "sets": 3,
+          "repRange": [
+            12,
+            20
+          ],
+          "tempo": "3-1-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": null,
+          "notes": "TUT y estiramiento controlado."
+        },
+        {
+          "id": "lateral_raise",
+          "name": "Elevaciones laterales (manc/cable) 🦾",
+          "sets": 6,
+          "repRange": [
+            12,
+            25
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            45,
+            60
+          ],
+          "techniqueId": "myo_reps",
+          "notes": "Última: myo-reps (12–15 + minis 3–5)."
+        },
+        {
+          "id": "machine_ohp",
+          "name": "Press hombro (máquina) 🦾",
+          "sets": 3,
+          "repRange": [
+            8,
+            12
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            90,
+            90
+          ],
+          "techniqueId": null,
+          "notes": "No arquees lumbar; respaldo."
+        },
+        {
+          "id": "rope_pushdown",
+          "name": "Tríceps cuerda 🔱",
+          "sets": 4,
+          "repRange": [
+            10,
+            15
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": "drop_set",
+          "notes": "Última: drop set."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "title": "Miércoles - Cuádriceps (volumen alto, seguro) 🦵",
+      "exercises": [
+        {
+          "id": "hack_squat",
+          "name": "Hack squat o Prensa 🦵",
+          "sets": 6,
+          "repRange": [
+            8,
+            12
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            120,
+            180
+          ],
+          "techniqueId": null,
+          "notes": "RIR 1–2. Ajusta pies para quad."
+        },
+        {
+          "id": "smith_squat",
+          "name": "Sentadilla Smith (técnica estricta) 🦵",
+          "sets": 4,
+          "repRange": [
+            8,
+            10
+          ],
+          "tempo": "3-0-1",
+          "restSec": [
+            120,
+            120
+          ],
+          "techniqueId": null,
+          "notes": "Profundidad que controles sin lumbar."
+        },
+        {
+          "id": "split_squat",
+          "name": "Split squat / zancada (c/pierna) 🦵",
+          "sets": 3,
+          "repRange": [
+            10,
+            12
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            90,
+            90
+          ],
+          "techniqueId": null,
+          "notes": "Estabilidad. Sin prisa."
+        },
+        {
+          "id": "leg_extension",
+          "name": "Extensión de cuádriceps 🔥",
+          "sets": 5,
+          "repRange": [
+            12,
+            20
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": "double_drop",
+          "notes": "Última: doble drop set."
+        },
+        {
+          "id": "calf_standing",
+          "name": "Gemelo de pie 🦶",
+          "sets": 5,
+          "repRange": [
+            10,
+            15
+          ],
+          "tempo": "2-2-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": "pausa_abajo",
+          "notes": "Pausa 2s abajo."
+        },
+        {
+          "id": "light_leg_curl",
+          "name": "Curl femoral ligero 🦵",
+          "sets": 2,
+          "repRange": [
+            15,
+            20
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            60,
+            60
+          ],
+          "techniqueId": null,
+          "notes": "Salud de rodilla; ligero."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "title": "Jueves - Pull (espalda/bíceps) 🧲",
+      "exercises": [
+        {
+          "id": "lat_pulldown",
+          "name": "Jalón al pecho / dominada asistida 🧲",
+          "sets": 5,
+          "repRange": [
+            6,
+            10
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            120,
+            120
+          ],
+          "techniqueId": "pausa_final",
+          "notes": "Pausa 1s abajo."
+        },
+        {
+          "id": "chest_supported_row",
+          "name": "Remo pecho apoyado 🧲",
+          "sets": 5,
+          "repRange": [
+            8,
+            12
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            120,
+            120
+          ],
+          "techniqueId": null,
+          "notes": "Evita balanceo; foco dorsal."
+        },
+        {
+          "id": "cable_row",
+          "name": "Remo en cable 🧲",
+          "sets": 3,
+          "repRange": [
+            10,
+            15
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            90,
+            90
+          ],
+          "techniqueId": null,
+          "notes": "Control total."
+        },
+        {
+          "id": "cable_pullover",
+          "name": "Pullover en cable 🧲",
+          "sets": 3,
+          "repRange": [
+            12,
+            15
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": null,
+          "notes": "Gran lat + serrato."
+        },
+        {
+          "id": "rear_delt",
+          "name": "Deltoide posterior (peck deck/face pull) 🪽",
+          "sets": 5,
+          "repRange": [
+            15,
+            25
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            45,
+            60
+          ],
+          "techniqueId": null,
+          "notes": "Bombeo/posición."
+        },
+        {
+          "id": "incline_curl",
+          "name": "Curl inclinado 💪",
+          "sets": 4,
+          "repRange": [
+            8,
+            12
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            75,
+            90
+          ],
+          "techniqueId": null,
+          "notes": "Estiramiento controlado."
+        },
+        {
+          "id": "hammer_curl",
+          "name": "Curl martillo 🔨",
+          "sets": 3,
+          "repRange": [
+            10,
+            15
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": "rest_pause",
+          "notes": "Última: rest-pause."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "title": "Viernes - Glúteo/Femoral (volumen/bombeo) 🍑",
+      "exercises": [
+        {
+          "id": "hip_thrust_fri",
+          "name": "Hip Thrust 🍑",
+          "sets": 4,
+          "repRange": [
+            10,
+            15
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            120,
+            120
+          ],
+          "techniqueId": "tension_continua",
+          "notes": "Tensión continua; sin bloqueo largo."
+        },
+        {
+          "id": "leg_curl_fri",
+          "name": "Curl femoral 🦵",
+          "sets": 6,
+          "repRange": [
+            10,
+            20
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            75,
+            90
+          ],
+          "techniqueId": "myo_reps",
+          "notes": "Última: myo-reps."
+        },
+        {
+          "id": "pull_through",
+          "name": "Pull-through (cable) 🧵",
+          "sets": 4,
+          "repRange": [
+            12,
+            20
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": null,
+          "notes": "Bisagra sin cargar lumbar."
+        },
+        {
+          "id": "glute_kickback",
+          "name": "Patada glúteo (cable/máquina) 🍑",
+          "sets": 4,
+          "repRange": [
+            15,
+            25
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            45,
+            60
+          ],
+          "techniqueId": "drop_set",
+          "notes": "Última: drop."
+        },
+        {
+          "id": "abduction_fri",
+          "name": "Abducción 🔥",
+          "sets": 3,
+          "repRange": [
+            20,
+            30
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            45,
+            45
+          ],
+          "techniqueId": null,
+          "notes": "Bombeo final."
+        },
+        {
+          "id": "calf_press",
+          "name": "Gemelo (prensa/donkey) 🦶",
+          "sets": 5,
+          "repRange": [
+            12,
+            20
+          ],
+          "tempo": "2-2-1",
+          "restSec": [
+            60,
+            60
+          ],
+          "techniqueId": "pausa_abajo_arriba",
+          "notes": "Pausa abajo/arriba."
+        },
+        {
+          "id": "leg_raise",
+          "name": "Core (elevación piernas controlada) 🧱",
+          "sets": 3,
+          "repRange": [
+            10,
+            15
+          ],
+          "tempo": "Control",
+          "restSec": [
+            45,
+            60
+          ],
+          "techniqueId": null,
+          "notes": "Sin columpio."
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "title": "Sábado - Upper detalle (delts + brazos + mantenimiento) ✨",
+      "exercises": [
+        {
+          "id": "ohp_sat",
+          "name": "Press hombro (máquina) 🦾",
+          "sets": 3,
+          "repRange": [
+            8,
+            12
+          ],
+          "tempo": "2-0-1",
+          "restSec": [
+            90,
+            90
+          ],
+          "techniqueId": null,
+          "notes": "RIR 1–2."
+        },
+        {
+          "id": "cable_laterals",
+          "name": "Laterales en cable 🦾",
+          "sets": 4,
+          "repRange": [
+            12,
+            20
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            45,
+            60
+          ],
+          "techniqueId": null,
+          "notes": "Control + squeeze."
+        },
+        {
+          "id": "machine_laterals",
+          "name": "Laterales en máquina 🦾",
+          "sets": 3,
+          "repRange": [
+            15,
+            25
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            45,
+            60
+          ],
+          "techniqueId": "drop_set",
+          "notes": "Última: drop."
+        },
+        {
+          "id": "light_chest",
+          "name": "Pecho ligero (aperturas/push-up) 🫶",
+          "sets": 3,
+          "repRange": [
+            12,
+            20
+          ],
+          "tempo": "3-1-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": null,
+          "notes": "No al fallo."
+        },
+        {
+          "id": "light_back",
+          "name": "Espalda ligera (remo cable o jalón recto) 🧲",
+          "sets": 3,
+          "repRange": [
+            12,
+            15
+          ],
+          "tempo": "2-1-1",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": null,
+          "notes": "Mantener volumen sin fatiga."
+        },
+        {
+          "id": "giant_arms",
+          "name": "Giant set brazos (curl + tríceps) 💥",
+          "sets": 4,
+          "repRange": [
+            12,
+            15
+          ],
+          "tempo": "Control",
+          "restSec": [
+            60,
+            75
+          ],
+          "techniqueId": "giant_set",
+          "notes": "Solo en última ronda: rest-pause en tríceps o bíceps."
+        }
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "weekDay": 1,
+      "dayId": "d1"
+    },
+    {
+      "weekDay": 2,
+      "dayId": "d2"
+    },
+    {
+      "weekDay": 3,
+      "dayId": "d3"
+    },
+    {
+      "weekDay": 4,
+      "dayId": "d4"
+    },
+    {
+      "weekDay": 5,
+      "dayId": "d5"
+    },
+    {
+      "weekDay": 6,
+      "dayId": "d6"
+    }
+  ]
+}

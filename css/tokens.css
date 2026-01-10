@@ -1,0 +1,20 @@
+:root {
+  --bg: #0a0c12;
+  --panel: #141826;
+  --panel2: #1a2032;
+  --text: #ebeff7;
+  --muted: #9aa4b4;
+
+  --accent: #78c8ff;
+  --accent2: #ffb450;
+  --good: #1e9b63;
+  --bad: #ff6e78;
+
+  --shadow: 0 12px 32px rgba(0,0,0,.45);
+  --radius-lg: 22px;
+  --radius-md: 16px;
+
+  --safe-b: env(safe-area-inset-bottom, 0px);
+  --safe-t: env(safe-area-inset-top, 0px);
+  --maxw: 920px;
+}

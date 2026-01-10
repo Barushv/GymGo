@@ -1,0 +1,134 @@
+[
+  {
+    "id": "pausa_alta",
+    "label": "PAUSA",
+    "emoji": "⏸️",
+    "summary": "Pausa isométrica en la parte alta para maximizar tensión.",
+    "howto": [
+      "Pausa 1–2s en la contracción máxima.",
+      "Mantén técnica y RIR 1–2.",
+      "Controla el descenso (sin rebotes)."
+    ],
+    "example": "Ejemplo: Hip Thrust 8 reps con pausa 2s arriba en cada repetición."
+  },
+  {
+    "id": "drop_set",
+    "label": "DROP",
+    "emoji": "⬇️",
+    "summary": "Bajas peso sin descansar para extender el set.",
+    "howto": [
+      "Termina el set en el rango objetivo.",
+      "Reduce 20–30% el peso sin descanso.",
+      "Haz reps extra hasta 1–2 RIR."
+    ],
+    "example": "Ejemplo: 20 reps + bajar 25% + 8–12 reps."
+  },
+  {
+    "id": "double_drop",
+    "label": "2×DROP",
+    "emoji": "⏬",
+    "summary": "Dos drops seguidos (alta densidad) para aislados.",
+    "howto": [
+      "Termina el set.",
+      "Drop #1: baja 20–30% y haz 6–12 reps.",
+      "Drop #2: baja 20–30% otra vez y haz 6–12 reps."
+    ],
+    "example": "Ejemplo: Extensión 15 reps + drop 25% 10 reps + drop 25% 8 reps."
+  },
+  {
+    "id": "rest_pause",
+    "label": "RP",
+    "emoji": "⏱️",
+    "summary": "Pausas cortas para sumar reps con el mismo peso.",
+    "howto": [
+      "Haz reps cerca del fallo técnico (1–2 RIR).",
+      "Descansa 15–25s.",
+      "Repite 1–3 mini-bloques."
+    ],
+    "example": "Ejemplo: 12 reps + 20s + 4 reps + 20s + 3 reps."
+  },
+  {
+    "id": "myo_reps",
+    "label": "MYO",
+    "emoji": "🔥",
+    "summary": "Serie activa + mini-series con pausas breves (muy eficiente).",
+    "howto": [
+      "Serie de activación: 12–20 reps (1–2 RIR).",
+      "Descanso 15–20s.",
+      "Mini-series: 3–5 reps; 4–6 rondas."
+    ],
+    "example": "Ejemplo: 15 + (20s) + 4 + 4 + 4 + 4."
+  },
+  {
+    "id": "top_set_backoff",
+    "label": "TOP+BO",
+    "emoji": "🏁",
+    "summary": "Top set pesado + back-off sets más ligeros para volumen.",
+    "howto": [
+      "Calienta progresivo.",
+      "Top set: rango bajo (ej. 6–8) a RIR 1–2.",
+      "Back-off: baja 8–12% y haz 2 sets en rango medio (ej. 8–10)."
+    ],
+    "example": "Ejemplo: Press inclinado 1×7 (top) + 2×9 (back-off)."
+  },
+  {
+    "id": "tension_continua",
+    "label": "TENSIÓN",
+    "emoji": "🧲",
+    "summary": "Sin bloqueo/descanso entre reps para mantener tensión constante.",
+    "howto": [
+      "Evita 'lockout' largo.",
+      "Mantén ritmo y rango controlado.",
+      "Útil en glúteo/aislados para bombeo."
+    ],
+    "example": "Ejemplo: Hip Thrust 12 reps sin bloquear arriba más de 0.5s."
+  },
+  {
+    "id": "pausa_abajo_arriba",
+    "label": "PAUSA 2s",
+    "emoji": "🦶",
+    "summary": "Pausa 2s abajo y/o arriba en gemelo para rango completo.",
+    "howto": [
+      "Baja controlado y pausa 2s estirado.",
+      "Sube y pausa 1–2s contraído.",
+      "No rebotes; controla el tobillo."
+    ],
+    "example": "Ejemplo: Gemelo sentado 10 reps con pausa 2s abajo + 1s arriba."
+  },
+  {
+    "id": "pausa_abajo",
+    "label": "PAUSA ↓",
+    "emoji": "🦶",
+    "summary": "Pausa en estiramiento (abajo) para quitar rebote.",
+    "howto": [
+      "Pausa 2s abajo.",
+      "Sube sin impulso.",
+      "Mantén reps limpias."
+    ],
+    "example": "Ejemplo: Gemelo de pie 12 reps con pausa 2s abajo."
+  },
+  {
+    "id": "pausa_final",
+    "label": "PAUSA 1s",
+    "emoji": "🧲",
+    "summary": "Pausa 1s en la posición final para sentir dorsal/escápula.",
+    "howto": [
+      "Termina la rep y pausa 1s.",
+      "No encoger hombros.",
+      "Controla regreso."
+    ],
+    "example": "Ejemplo: Jalón 8 reps con 1s de pausa abajo."
+  },
+  {
+    "id": "giant_set",
+    "label": "GIANT",
+    "emoji": "💥",
+    "summary": "Varios ejercicios seguidos con poco descanso (brazos/delts).",
+    "howto": [
+      "Ejecuta ejercicio A → B sin descanso o con 10–20s.",
+      "Descansa 60–75s al final de la ronda.",
+      "Mantén técnica; evita fallo temprano."
+    ],
+    "example": "Ejemplo: Curl 12–15 + Tríceps 12–15 = 1 ronda (×4)."
+  }
+]
