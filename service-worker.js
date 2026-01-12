@@ -1,4 +1,4 @@
-const CACHE='gymgo-shell-v0.2.6';
+const CACHE='gymgo-shell-v0.2.7';
 const SHELL=[
   '',
   'index.html',
@@ -64,38 +64,41 @@ self.clients.claim();
 });
 
 self.addEventListener('fetch',e=>{
-const req=e.request;
-const url=new URL(req.url);
-if(req.method!=='GET') return;
+  const req = e.request;
+  // IMPORTANT: ignore non-http(s) requests (e.g. chrome-extension:// injected requests)
+  // to prevent Cache.put() from throwing "Request scheme ... is unsupported".
+  const url = new URL(req.url);
+  if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
 
-// Network First para /data/*.json (para actualizar rutina/técnicas aunque exista cache)
-if(url.pathname.startsWith('data/') && url.pathname.endsWith('.json')){
-e.respondWith((async()=>{
-const c=await caches.open(CACHE);
-try{
-const fresh=await fetch(req);
-c.put(req,fresh.clone());
-return fresh;
-}catch{
-const cached=await c.match(req);
-return cached || new Response(JSON.stringify({error:'offline'}),{headers:{'Content-Type':'application/json'}});
-}
-})());
-return;
-}
+  // Cache-first for app shell, network-first for JSON
+  if(req.method !== 'GET') return;
 
-// Cache First para el resto (app shell)
-e.respondWith((async()=>{
-const c=await caches.open(CACHE);
-const cached=await c.match(req);
-if(cached) return cached;
-try{
-const fresh=await fetch(req);
-c.put(req,fresh.clone());
-return fresh;
-}catch{
-if(req.headers.get('accept')?.includes('text/html')) return (await c.match('index.html')) || new Response('Offline',{status:503});
-return new Response('Offline',{status:503});
-}
-})());
+  if(url.pathname.endsWith('.json')){
+    e.respondWith((async()=>{
+      const c = await caches.open(CACHE);
+      try{
+        const fresh = await fetch(req);
+        c.put(req, fresh.clone());
+        return fresh;
+      }catch{
+        const cached = await c.match(req);
+        return cached || new Response(JSON.stringify({error:'offline'}), {headers:{'content-type':'application/json'}});
+      }
+    })());
+    return;
+  }
+
+  e.respondWith((async()=>{
+    const c = await caches.open(CACHE);
+    const cached = await c.match(req);
+    if(cached) return cached;
+    try{
+      const fresh = await fetch(req);
+      c.put(req, fresh.clone());
+      return fresh;
+    }catch{
+      if(req.headers.get('accept')?.includes('text/html')) return (await c.match('index.html')) || new Response('Offline',{status:503});
+      return new Response('Offline',{status:503});
+    }
+  })());
 });
