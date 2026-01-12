@@ -1,49 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="es">
 <head>
-  <base href="./">
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#0A0C12" />
-  <title>GymGo</title>
+<base href="./"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#0A0C12" name="theme-color"/>
+<title>GymGo</title>
+<link href="manifest.webmanifest" rel="manifest"/>
+<link href="icons/icon-192.png" rel="icon"/>
+<link href="icons/icon-192.png" rel="apple-touch-icon"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<link href="css/tokens.css" rel="stylesheet"/>
+<link href="css/styles.css" rel="stylesheet"/>
+<meta content="GymGo" name="apple-mobile-web-app-title"/>
 
-  <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="icons/icon-192.png" />
-  <link rel="apple-touch-icon" href="icons/icon-192.png" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-  <link rel="stylesheet" href="css/tokens.css" />
-  <link rel="stylesheet" href="css/styles.css" />
+<!-- iOS Splash Screens (apple-touch-startup-image) -->
+<link rel="apple-touch-startup-image" href="splash/ios/splash-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1136x640.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1334x750.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1242x2208.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2208x1242.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2436x1125.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1792x828.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1242x2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2688x1242.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2532x1170.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1179x2556.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2556x1179.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1284x2778.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2778x1284.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1290x2796.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2796x1290.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1536x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2048x1536.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1668x2224.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2224x1668.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-1668x2388.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2388x1668.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2048x2732.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="splash/ios/splash-2732x2048.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+
 </head>
 <body>
-  <div class="shell">
-    <header class="topbar">
-      <div class="topbar__left">
-        <div class="appmark">🏋️</div>
-        <div>
-          <div class="apptitle">GymGo</div>
-          <div id="appSubtitle" class="appsubtitle">Mini Cut 8 semanas</div>
-        </div>
-      </div>
-      <div class="topbar__right">
-        <button id="btnSettings" class="iconbtn" aria-label="Ajustes" title="Ajustes">⚙️</button>
-      </div>
-    </header>
-
-    <main id="view" class="view" aria-live="polite"></main>
-
-    <nav class="tabbar" aria-label="Navegación">
-      <button class="tab tab--active" data-tab="today" aria-current="page"><span class="tab__ico">🏋️</span><span class="tab__lbl">Hoy</span></button>
-      <button class="tab" data-tab="week"><span class="tab__ico">📆</span><span class="tab__lbl">Semana</span></button>
-      <button class="tab" data-tab="progress"><span class="tab__ico">📈</span><span class="tab__lbl">Progreso</span></button>
-      <button class="tab" data-tab="tech"><span class="tab__ico">📚</span><span class="tab__lbl">Técnicas</span></button>
-    </nav>
-  </div>
-
-  <div id="toastRoot" class="toastRoot" aria-live="assertive" aria-atomic="true"></div>
-  <div id="modalRoot" class="modalRoot" aria-hidden="true"></div>
-
-  <script type="module" src="js/app.js"></script>
+<div class="shell">
+<header class="topbar">
+<div class="topbar__left">
+<div class="appmark">🏋️</div>
+<div>
+<div class="apptitle">GymGo</div>
+<div class="appsubtitle" id="appSubtitle">Mini Cut 8 semanas</div>
+</div>
+</div>
+<div class="topbar__right">
+<button aria-label="Ajustes" class="iconbtn" id="btnSettings" title="Ajustes">⚙️</button>
+</div>
+</header>
+<main aria-live="polite" class="view" id="view"></main>
+<nav aria-label="Navegación" class="tabbar">
+<button aria-current="page" class="tab tab--active" data-tab="today"><span class="tab__ico">🏋️</span><span class="tab__lbl">Hoy</span></button>
+<button class="tab" data-tab="week"><span class="tab__ico">📆</span><span class="tab__lbl">Semana</span></button>
+<button class="tab" data-tab="progress"><span class="tab__ico">📈</span><span class="tab__lbl">Progreso</span></button>
+<button class="tab" data-tab="tech"><span class="tab__ico">📚</span><span class="tab__lbl">Técnicas</span></button>
+</nav>
+</div>
+<div aria-atomic="true" aria-live="assertive" class="toastRoot" id="toastRoot"></div>
+<div aria-hidden="true" class="modalRoot" id="modalRoot"></div>
+<script src="js/app.js" type="module"></script>
 </body>
 </html>
