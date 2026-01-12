@@ -1,6 +1,6 @@
 {
-  "name": "ProgressRunner",
-  "short_name": "ProgressRunner",
+  "name": "GymGo",
+  "short_name": "GymGo",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0A0C12",

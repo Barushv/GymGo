@@ -1,4 +1,4 @@
-# ProgressRunner PWA (Vanilla)
+# GymGo PWA (Vanilla)
 
 PWA minimal (HTML/CSS/JS) para ejecutar una rutina tipo "Runner" y llevar progreso semana a semana.
 

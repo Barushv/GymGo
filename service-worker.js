@@ -1,4 +1,4 @@
-const CACHE='progressrunner-shell-v2';
+const CACHE='gymgo-shell-v0.2.4';
 const SHELL=[
 '', 'index.html',
 'css/tokens.css','css/styles.css',

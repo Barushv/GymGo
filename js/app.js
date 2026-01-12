@@ -10,8 +10,8 @@ import { renderWeek } from './ui/screens/week.js';
 import { renderProgress } from './ui/screens/progress.js';
 import { renderTechniques } from './ui/screens/techniques.js';
 
-const APP_VERSION = '0.2.0';
-const BUILD_DATE = '2026-01-09';
+const APP_VERSION = '0.2.4';
+const BUILD_DATE = '2026-01-11';
 
 const view = qs('#view');
 const subtitle = qs('#appSubtitle');
